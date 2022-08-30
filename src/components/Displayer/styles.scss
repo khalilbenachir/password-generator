@@ -1,0 +1,19 @@
+.displayer {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    p {
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      color: var(--light-white);
+      opacity: .4;
+    }
+  }
+
+  &-icon {
+    cursor: pointer;
+  }
+}

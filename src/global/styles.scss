@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap");
+
+:root {
+  --red: #f64a4a;
+  --orange: #fb7c58;
+  --yellow: #f8cd65;
+  --neon-green: #a4ffaf;
+  --light-white: #e6e5ea;
+  --grey: #817d92;
+  --dark-grey: #24232c;
+  --very-dark-grey: #18171f;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: url('../assets//fonts/JetBrainsMono-VariableFont_wght.ttf') format('woff');
+}
+
+body {
+  font-family: "JetBrainsMono", monospace;
+  color: white;
+}

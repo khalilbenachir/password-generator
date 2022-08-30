@@ -1,0 +1,29 @@
+.generate-btn {
+  --background-color: var(--neon-green);
+  --color: var(--very-dark-grey);
+  background-color: var(--background-color);
+  color: var(--color);
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem;
+  gap: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: 2px solid var(--neon-green);
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+
+  &:hover {
+    --background-color: var(--very-dark-grey);
+    --color: var(--neon-green);
+  }
+
+  svg {
+    pointer-events: none;
+    path {
+      fill: var(--color);
+    }
+  }
+}
